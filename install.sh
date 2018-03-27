@@ -244,9 +244,11 @@ chown -R jenkins:www-data /var/www
 
 # Enable Swap Memory
 
-/bin/dd if=/dev/zero of=/var/swap.1 bs=1M count=1024
+/bin/fallocate -l 1G /var/swap.1
+/bin/chmod 0600 /var/swap.1
 /sbin/mkswap /var/swap.1
-/sbin/swapon /var/swap.1
+echo "/var/swap.1 swap swap defaults 0 0" | tee -a /etc/fstab
+/sbin/swapon -a
 
 apt-get -y update && apt-get -y upgrade && apt-get -y autoremove && apt-get -y autoclean
 
