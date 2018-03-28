@@ -5,7 +5,7 @@ server {
      # Modify - Domain name as yours
     server_name www.example.com example.com;
 
-    return 301 https://$host$request_uri;
+    return 301 https://example.com$request_uri;
 }
 
 server {
