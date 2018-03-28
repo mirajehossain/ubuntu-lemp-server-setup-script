@@ -62,6 +62,6 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 # [Documentation of letsencript for free SSL](https://github.com/FierceBengalTiger/letsencript-free-SSL/)
 
-Special thanks to [Behestee](https://github.com/behestee/awssh/) bhaiya.
+Special thanks to [Behestee](https://github.com/behestee/) bhaiya.
 
 
