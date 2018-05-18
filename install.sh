@@ -83,7 +83,7 @@ nginx php7.1-fpm php7.2-fpm php7.0-fpm
 systemctl restart nginx
 
 # Install OpenJDK
-apt-get install -yopenjdk-8-jre
+apt-get install -y openjdk-8-jre
 
 # Install Jenkins
 wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | apt-key add -
