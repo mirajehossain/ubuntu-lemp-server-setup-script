@@ -42,7 +42,7 @@ sudo systemctl status nginx
 ```
 # MariaDB Configuration
 ```shell
-mysql -u root -p
+sudo mysql -u root -p
 ```
 
 ```shell
