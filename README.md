@@ -14,14 +14,14 @@ sudo ./install.sh
 
 # Add conf for your Domain
 ```shell
-sudo cp /server-setup-script/sample_conf /etc/nginx/sites-available/example.com.conf
+sudo cp ~/server-setup-script/sample_conf /etc/nginx/sites-available/example.com.conf
 sudo ln -s /etc/nginx/sites-available/example.com.conf /etc/nginx/sites-enabled/example.com.conf
 sudo vim /etc/nginx/sites-available/example.com.conf
 ```
 
 # Add conf with SSL for your Domain
 ```shell
-sudo cp /server-setup-script/sample_ssl_conf /etc/nginx/sites-available/example.com.conf
+sudo cp ~/server-setup-script/sample_ssl_conf /etc/nginx/sites-available/example.com.conf
 sudo ln -s /etc/nginx/sites-available/example.com.conf /etc/nginx/sites-enabled/example.com.conf
 sudo vim /etc/nginx/sites-available/example.com.conf
 ```
