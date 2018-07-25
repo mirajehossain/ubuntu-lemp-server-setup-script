@@ -1,7 +1,7 @@
 # Prepare for Ubuntu Server Setup
 ```shell
 cd
-git clone https://github.com/FierceBengalTiger/ubuntu-server-setup-script.git
+git clone https://github.com/FierceBengalTiger/ubuntu-lemp-server-setup-script.git
 cd ubuntu-server-setup-script
 chmod +x install.sh
 sudo ./install.sh
