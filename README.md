@@ -2,6 +2,7 @@
 ## Prerequisites
 - > Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 - > Install [Vagrant](https://www.vagrantup.com/downloads.html).
+    - > Install VirtualBox [Extension Pack](https://download.virtualbox.org/virtualbox/5.2.16/Oracle_VM_VirtualBox_Extension_Pack-5.2.16.vbox-extpack) (if needed)
 ## After complete installation VirtualBox and Vagrant.
 
 ```shell
