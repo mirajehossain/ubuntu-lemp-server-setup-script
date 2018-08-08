@@ -1,4 +1,9 @@
 # Prepare for Ubuntu Server Setup
+## Prerequisites
+- > Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+- > Install [Vagrant](https://www.vagrantup.com/downloads.html).
+## After complete installation VirtualBox and Vagrant.
+
 ```shell
 cd
 git clone https://github.com/FierceBengalTiger/ubuntu-lemp-server-setup-script.git server-setup-script
